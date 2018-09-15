@@ -13,7 +13,8 @@
 <remote name="SnowCat6" fetch="https://github.com/SnowCat6/"  />
 <project path="device/DOOGEE" name="DEVICE_DOOGEE" revision="Android7.1.1" remote="SnowCat6" />
 <project path="vendor/mediatek/proprietary/custom" name="vendor-mediatek-proprietary-custom" revision="Android7.1.1" remote="SnowCat6" />
-<project path="vendor/DOOGEE" name="vendor-DOOGEE" revision="Android7.1.1" remote="SnowCat6" />
+<remote name="maekelborger" fetch="https://github.com/maekelborger/" />
+<project path="vendor/DOOGEE" name="vendor-DOOGEE" revision="Android7.1.1" remote="maekelborger" />
 <project path="kernel-3.18" name="DOOGEE-kernel-3.18" revision="Android7.1.1" remote="SnowCat6" />
 <project path="vendor/mediatek/proprietary/modem" name="vendor-mediatek-proprietary-modem" revision="Android7.1.1" remote="SnowCat6" />
 
